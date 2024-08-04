@@ -1,5 +1,5 @@
 'use client'
-
+import { Analytics } from "@vercel/analytics/react"
 import { Inter } from "next/font/google";
 import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
           <ThemeProvider theme={theme}>
             <CssBaseline />
             {children}
+            <Analytics />
           </ThemeProvider>
         </SessionProvider>
       </body>
