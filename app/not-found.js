@@ -8,7 +8,7 @@ export default function NotFound() {
         404 - Page Not Found
       </Typography>
       <Typography variant="body1" gutterBottom>
-        The page you're looking for doesn't exist.
+        The page you&apos;re looking for doesn&apos;t exist.
       </Typography>
       <Button variant="contained" component={Link} href="/dashboard">
         Go to Dashboard

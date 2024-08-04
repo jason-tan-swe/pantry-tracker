@@ -17,7 +17,7 @@ export default function Recipes() {
         Coming Soon!
       </Typography>
       <Typography variant="body1" sx={{ mt: 2 }}>
-        We're cooking up something special. Check back later for delicious recipes!
+        We&apos;re cooking up something special. Check back later for delicious recipes!
       </Typography>
     </Box>
   );
